@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHouse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <!--Navegador-->
+        <header class="menu" id="inicio">
+            <nav>
+                <p><img src="icons/favicon-32x32.png" alt="icone"><span style="color: orange">T</span>ech<span
+                        style="color: orange;">H</span>ouse</p>
+                <hr>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="#produtos" class="dropbtn">Produtos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#celulares">Celulares</a></li>
+                            <li><a href="#computadores">Computadores</a></li>
+                            <li><a href="#acessorios">Acessórios</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contatos">Contatos</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <div class="btns">
+                        <li><a href="login.html"><button class="btn-login">Login</button></a></li>
+                        <li><a href="registrar.html"><button class="btn-registro">Registrar-se</button></a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <!--Slider-->
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="imagens/1.png" alt="Banner 1">
+                </div>
+                <div class="slide">
+                    <img src="imagens/2.png" alt="Banner 2">
+                </div>
+                <div class="slide">
+                    <img src="imagens/Capturar.PNG" alt="Banner 3">
+                </div>
+            </div>
+        </div>
+        <!--Cards-->
+        <div class="container" id="produtos">
+            <div class="card">
+                <img src="imagens/celular.webp" alt="">
+                <h2>Celulares</h2>
+                <p>Telefones moveis</p>
+                <a
+                    href="https://docs.google.com/document/d/1Id788sMa0EDFTMqhlAEfO64P_ofz_tUZiYRQexCY-oU/edit?pli=1"><button>Comprar</button></a>
+            </div>
+            <div class="card">
+                <img src="imagens/desktop.webp" alt="">
+                <h2>Desktop</h2>
+                <p>Dispositivos não-portateis</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <img src="imagens/notebook.jpg" alt="">
+                <h2>Notebook</h2>
+                <p>Dispositivos portateis</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+        <br>
+        <!--roda pé-->
+        <footer>
+            <div class="footer-conteiner">
+                <div class="footer-section">
+                    <h4>Sobre Nós</h4>
+                    <ul>
+                        <p><a href="sobre.html">Sobre nos</a></p>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contatos</h4>
+                    <div class="social-links" id="contatos">
+                        <a href="https://www.facebook.com/?locale=pt_BR">Facebook</a>
+                        <a href="twitter.com">Twitter</a>
+                        <a href="instagram.com">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;2024 Empresa. Todos os direiros reservados</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

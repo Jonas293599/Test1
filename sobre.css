@@ -1,0 +1,165 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h1{
+    color: white;
+    background-color: gray;
+    width: 50%;
+    text-align: center;
+    margin: 0% 25%;
+}
+.paragraph p{
+    background-color: white;
+    
+}
+/*navegador*/
+nav {
+    background-color: rgba(54, 54, 54, 0.806);
+    padding: 2% 0;
+    border-bottom: 1px solid black;
+}
+nav p{
+    font-size: 200%;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    text-decoration: underline white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 2)
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px;
+    padding: 10px;
+}
+
+nav ul li .dropdown-content li {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li .dropdown-content li a {
+    padding: 0px 20px;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: rgb(86, 86, 86);
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+/*footer*/
+footer {
+    background-color: rgba(54, 54, 54, 0.806);
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-conteiner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.footer-section {
+    flex-basis: 23%;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer-section ul li a:hover {
+    color: black;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.social-links a:hover {
+    color: black;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid black;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    margin: 0;
+}
+
+/*fim do footer*/
