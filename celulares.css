@@ -1,7 +1,6 @@
-/*Estilo de pagina*/
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #d9d9d9;
     margin: 0;
     padding: 0;
     border: 0;
@@ -108,57 +107,32 @@ nav ul li .dropdown-content li a:hover {
 nav ul li:hover .dropdown-content {
     display: block;
 }
-
-/*fim do navegador*/
-
-/*Slider*/
-.slider {
-    width: 100%;
-    max-width: 8000px;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
+.textos{
+    background-color: white;
+    padding-top: 2%;
 }
-
-.slides {
-    display: flex;
-    width: 100%;
-    animation: slideAnimation 9s infinite;
+.textos p{
+    margin: 0 10%;
+    margin-bottom: 1%;
+    font-size: 20px;
 }
-
-.slide {
-    width: 100%;
-    flex-shrink: 0;
-}
-
-@keyframes slideAnimation {
-    0% {
-        transform: translateX(0);
-    }
-    33% {
-        transform: translateX(-100%);
-    }
-    66% {
-        transform: translateX(-200%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-
-.slide img {
-    width: 100%;
-    display: block;
-}
-/*fim do slider*/
-/*cards*/
 .container{
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgb(66, 73, 85);
+}
+.container2{
+    margin-top: 1%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    gap: 2%;
 }
 .card{
     background-color: white;
@@ -169,15 +143,26 @@ nav ul li:hover .dropdown-content {
     flex: 1;
     min-height: 260px;
     text-align: center;
+    
 }
 .card h2{
     margin-top: 0;
     font-size: 1.5em;
     color: black;
+    font-size: 20px;
+}
+.card h1{
+    font-size: 10px;
+    text-decoration: line-through;
+    color: gray;
+}
+.card h3{
+    font-size: 10px;
+    color: rgb(0, 180, 0);
 }
 .card p{
-    font-size: 18px;
-    color: gray;
+    font-size: 12px;
+    color: black;
 }
 .card button{
     border-radius: 10px;
@@ -192,14 +177,15 @@ nav ul li:hover .dropdown-content {
 }
 .card img{
     transition: all 0.6s;
-    width: 70%;
+    width: 20%;
 }
 .card img:hover{
     transition: all 0.3s;
     transform: translateY(-5%)
 }
-
-/*footer*/
+a{
+    text-decoration: none;
+}
 footer {
     background-color: rgb(32, 36, 43);
     color: white;

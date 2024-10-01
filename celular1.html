@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechHouse</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Redmi note 8</title>
+    <link rel="stylesheet" href="celular1.css">
     <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <main>
-        <!--Navegador-->
         <header class="menu" id="inicio">
             <nav>
                 <p><img src="icons/favicon-32x32.png" alt="icone"><span style="color: orangered">T</span>ech<span
@@ -36,44 +35,56 @@
                 </ul>
             </nav>
         </header>
-        <!--Slider-->
-        <div class="slider">
-            <div class="slides">
-                <div class="slide">
-                    <img src="imagens/1.png" alt="Banner 1">
+        <section class="produto">
+            <div class="imagens-produtos">
+                <img src="imagens/calulares/redmi note 8/D_NQ_NP_2X_790001-MLA48798660518_012022-F.webp"
+                    alt="Produto principal" class="imagem-principal" id="imagem-principal">
+                <div class="miniaturas">
+                    <img src="imagens/calulares/redmi note 8/D_NQ_NP_2X_790001-MLA48798660518_012022-F.webp"
+                        alt="miniatura 1" class="miniatura">
+                    <img src="imagens/calulares/redmi note 8/D_Q_NP_2X_813090-MLA48798662472_012022-R.webp"
+                        alt="miniatura 2" class="miniatura">
+                    <img src="imagens/calulares/redmi note 8/D_Q_NP_2X_624345-MLU77117750364_062024-R.webp"
+                        alt="miniatura 3" class="miniatura">
                 </div>
-                <div class="slide">
-                    <img src="imagens/2.png" alt="Banner 2">
-                </div>
-                <div class="slide">
-                    <img src="imagens/Capturar.PNG" alt="Banner 3">
-                </div>
             </div>
-        </div>
-        <!--Cards-->
-        <div class="container" id="produtos">
-            <div class="card">
-                <img src="imagens/celular.webp" alt="">
-                <h2>Celulares</h2>
-                <p>Telefones moveis</p>
-                <a
-                    href=celulares.html><button>Inspecionar</button></a>
+            <div class="detalhes-produto">
+                <h2>Redmi Note 8</h2>
+                <p class="descricao">Produto intencionado a suprir necessidades do dia a dia, entregando um ótimo
+                    desempelho para atividades básicas e medianas(não recomendado para renderizamento 3D ou jogos).</p>
+                <p class="preco-ant">R$1200,00</p>
+                <p class="preco">R$900,00</p>
+                <form class="opcoes-compra">
+                    <label for="Armazenamento">Armazenamento:</label>
+                    <select id="Armazenamento">
+                        <option>64GB</option>
+                        <option>128GB</option>
+                    </select>
+                    <label for="RAM">RAM:</label>
+                    <select id="RAM">
+                        <option>3GB</option>
+                        <option>4GB</option>
+                        <option>6GB</option>
+                    </select>
+                    <label for="cor">Cor:</label>
+                    <select id="cor">
+                        <option>Azul espaço</option>
+                        <option>Branco lua </option>
+                        <option>Preto espaço</option>
+                    </select>
+
+                    <button type="submit">Comprar</button>
+                </form>
             </div>
-            <div class="card">
-                <img src="imagens/desktop.webp" alt="">
-                <h2>Desktop</h2>
-                <p>Dispositivos não-portateis</p>
-                <button>Inspecionar</button>
+        </section>
+        <section class="comantarios">
+            <h3>Comantarios</h3>
+
+            <div class="comentario">
+                <img src="" alt="Foto de ..." class="foto-usuario">
+                <p><strong>Maria:</strong>Ótimo produto, recomendo!</p>
             </div>
-            <div class="card">
-                <img src="imagens/notebook.jpg" alt="">
-                <h2>Notebook</h2>
-                <p>Dispositivos portateis</p>
-                <button>Inspecionar</button>
-            </div>
-        </div>
-        <br>
-        <!--roda pé-->
+        </section>
         <footer>
             <div class="footer-conteiner">
                 <div class="footer-section">
@@ -104,7 +115,8 @@
                 <p>&copy;2024 Empresa. Todos os direiros reservados</p>
             </div>
         </footer>
-    </main>
+    </main>                                                             
+    <script src=”celular1.js”></script>
 </body>
 
 </html>
