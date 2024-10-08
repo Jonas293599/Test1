@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="shortcut icon" href="/site/icons/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <header class="menu" id="inicio">
+            <nav>
+                <p><img src="icons/favicon-32x32.png" alt="icone"><span style="color: orangered">T</span>ech<span
+                        style="color: orangered;">H</span>ouse
+                </p>
+                <hr>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="#produtos" class="dropbtn">Produtos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#celulares">Celulares</a></li>
+                            <li><a href="#computadores">Computadores</a></li>
+                            <li><a href="#acessorios">Acessórios</a></li>
+                            <li><a href="#carrinho"><img src="icons/carrinho.png" alt="carrinho"></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contatos">Contatos</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <div class="btns">
+                        <li><a href="login.html"><button class="btn-login">Login</button></a></li>
+                        <li><a href="cadastro.html"><button class="btn-registro">Registrar-se</button></a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <section class="carrinho">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produtos</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Total</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Produto Exemplo 1</td>
+                        <td>
+                            <input type="number" value="1" min="1" class="quantidade">
+                        </td>
+                        <td class="preco-unitario">R$50,00</td>
+                        <td class="preco-total">R$50,00</td>
+                        <td>
+                            <button class="remover-produto">Remover</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Produto Exemplo 2</td>
+                        <td>
+                            <input type="number" value="2" min="1" class="quantidade">
+                        </td>
+                        <td class="preco-unitario">R$30,00</td>
+                        <td class="preco-total">R$60,00</td>
+                        <td>
+                            <button class="remover-produto">Remover</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="total-final">
+                <h3>Total final: <span id="total-final">R$ 110,00</span></h3>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-conteiner">
+                <div class="footer-section">
+                    <h4>Sobre Nós</h4>
+                    <ul>
+                        <li>
+                            <p><a href="sobre.html">Sobre nos</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contatos</h4>
+                    <div class="social-links" id="contatos">
+                        <a href="https://www.facebook.com/?locale=pt_BR">Facebook</a>
+                        <a href="twitter.com">Twitter</a>
+                        <a href="instagram.com">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;2024 Empresa. Todos os direiros reservados</p>
+            </div>
+        </footer>
+    </main>
+    <script src="carrinho.js"></script>
+</body>
+
+</html>
